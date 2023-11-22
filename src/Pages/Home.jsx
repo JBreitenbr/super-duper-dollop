@@ -4,7 +4,7 @@ import wordcloud from './assets/wordcloud.png';
 import Type from './Type';
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material
+import GithubIcon from "@material-ui/icons/Github";
 export const Home = () => {
   return (
    <><div className="home">
