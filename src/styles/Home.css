@@ -26,8 +26,8 @@
   height: 175px;
 }
 .prompt svg {
-  font-size: 60px;
-  margin: 5px;
+  font-size: 50px;
+  margin: 20px 5px 5px 5px;
   color: white;
 }
 @media screen and (min-width: 768px){
