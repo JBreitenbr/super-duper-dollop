@@ -4,7 +4,7 @@ import "../styles/Navbar.css";
 
 
 export const Navbar=() => {
-  const [expandNavbar, setExpandNavbar] = useState(false);
+  const [expandNavbar, setExpandNavbar] = useState(true);
 
   const location = useLocation();
 
