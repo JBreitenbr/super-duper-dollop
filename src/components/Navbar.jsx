@@ -20,7 +20,7 @@ import Giulietta from './assets/Giulietta.png';
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+/*import ReorderIcon from "@material-ui/icons/Reorder";*/
 
 export const Navbar=() => {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -39,7 +39,7 @@ export const Navbar=() => {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          <ReorderIcon />
+          { /* <ReorderIcon />*/}
         </button>
       </div>
       <div className="links">
