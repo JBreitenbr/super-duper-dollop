@@ -33,15 +33,15 @@ export const Navbar=() => {
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
-      <div className="toggleButton">
+      {/* <div className="toggleButton">
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          { /* <ReorderIcon />*/}
+          <ReorderIcon />
         </button>
-      </div>
+      </div>*/}
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
