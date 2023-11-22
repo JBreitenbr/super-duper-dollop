@@ -1,0 +1,79 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color:#2d4580;
+}
+
+.name-tag {
+  font-size: 36px;
+  color: #f7f7f7;
+  margin-top: 80px;
+  margin-bottom: 12px;
+}
+
+.type-wrapper {
+  text-align:center;
+  color:#f7f7f7;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#wordcloud {
+  height: 175px;
+}
+
+@media screen and (min-width: 768px){
+  .name-tag {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 14px;
+  }
+
+  .type-wrapper {
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+  
+  #wordcloud {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width:990px){
+  .name-tag {
+    margin-top: 65px;
+  }
+
+}
+
+@media screen and (min-width:1200px){
+  .name-tag {
+    font-size: 56px;
+  }
+
+  .type-wrapper{
+    font-size: 35px;
+  }
+  
+  #wordcloud {
+    height: 320px;
+  }
+}
+
+@media screen and (min-width:1400px){
+  .name-tag {
+    font-size: 64px;
+  }
+
+  .type-wrapper{
+    font-size: 40px;
+  }
+  
+  #wordcloud {
+    height: 430px;
+  }
+}
