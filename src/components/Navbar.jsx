@@ -18,9 +18,10 @@ export const Navbar=() => {
         </button>
       </div>*/}
       <div className="links">
-        <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/certifications"> Certifications </Link>
+        <Link to="/">Start</Link>
+        <Link to="/about">Über mich</Link>
+        <Link to="/projects">Projekte</Link>
+        <Link to="/certifications">Zertifizierungen</Link>
       </div>
     </div>
   );
