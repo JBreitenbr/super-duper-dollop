@@ -19,7 +19,7 @@ export const Navbar=() => {
       </div>*/}
       <div className="links">
         <Link to="/">Startseite</Link>
-        <Link to="/about">Über mich</Link>
+        <Link to="/about">Über mich&nbsp;&nbsp;&nbsp;</Link>
         <Link to="/projects">Projekte</Link>
         <Link to="/certifications">Zertifizierungen</Link>
       </div>
