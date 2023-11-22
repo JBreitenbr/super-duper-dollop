@@ -21,7 +21,7 @@ export const Navbar=() => {
         <Link to="/">Startseite</Link>
         <Link to="/about">Über mich&nbsp;&nbsp;&nbsp;</Link>
         <Link to="/projects">Projekte</Link>
-        <Link to="/certifications">Zertifizierungen</Link>
+        <Link to="/certifications" style={{marginLeft:"5px"}}>Zertifizierungen</Link>
       </div>
     </div>
   );
