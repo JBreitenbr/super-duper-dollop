@@ -1,6 +1,5 @@
 import "../styles/Projects.css";
 import {projects} from "./helpers/projects";
-import {Footer} from './Footer';
 import Cards from './Cards';
 const projItems =projects.map(
 (item) => {
@@ -17,10 +16,10 @@ return (
         });
 export const Projects = () => {
   return (
-   <>
+   
      <div className="card-grid">
       {projItems}
     </div>
-     <Footer/></>
+  
   );
 };
