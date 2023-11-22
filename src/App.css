@@ -1,0 +1,32 @@
+body {
+  font-family: Oxygen;
+}
+
+.nav-custom {
+  color: #2d4580;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  background-color:#e3e3e3;
+  z-index: 2;
+}
+.jull-brand {
+  border-radius: 50%;
+  height: 70px;
+}
+
+@media screen and (min-width:768px){
+  #navbar {
+    height: 65px;
+  }
+  .jull-brand {
+    height: 56px;
+  }
+}
