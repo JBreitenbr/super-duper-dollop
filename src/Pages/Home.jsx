@@ -13,7 +13,7 @@ export const Home = () => {
                 <Type />
               </div>
     <img src={wordcloud} id="wordcloud"/>
-     <div className="prompt"></div> <a href="mailto:julia.breitenbruch@gmail.com"><EmailIcon /></a>
+     <div className="prompt"><a href="mailto:julia.breitenbruch@gmail.com"><EmailIcon /></a>
       <a href="https://www.github.com/JBreitenbr"><GithubIcon /></a>
       <a href="tel:+4915253917250"><PhoneIcon /></a></div></div></>
   );
